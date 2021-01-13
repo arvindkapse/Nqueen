@@ -44,7 +44,6 @@ Additionally, please make sure that no three queens are in a straight line at AN
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -73,9 +72,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-* JDK 1.8 and above installed.
+  JDK 1.8 and above installed.
   Gradle 6.8
-  ```
+
 
 ### Installation
 
@@ -91,7 +90,7 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 gradle clean build
-	gradle run --args="-n 5 -q 3" 
+	gradle run --args="-n 5 -q 3"  <br>
 		 -n,--grid <arg>         grid size
 		 -q,--noofqueens <arg>   No of queens in straight line
 
