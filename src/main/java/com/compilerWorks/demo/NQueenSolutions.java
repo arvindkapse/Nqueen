@@ -13,13 +13,15 @@ import com.compilerWorks.RuntimeExceptions.NoSolutionExist;
 public class NQueenSolutions {
 	private static final Logger logger = LoggerFactory.getLogger(NQueenSolutions.class);
 
-	// default 
+	// default
 	private int gridSize = 0;
 	private List<int[][]> lstNqueenSolutions = null;
+
 	/**
 	 * Constructor
-	 * @param gridSize 
-	 * 		  size of the grid for placing Queens 	
+	 * 
+	 * @param gridSize
+	 *            size of the grid for placing Queens
 	 */
 	public NQueenSolutions(int gridSize) {
 		if (gridSize <= 0) {
@@ -30,11 +32,12 @@ public class NQueenSolutions {
 	}
 
 	/**
-	 * Recursive functions to generate grid placement of queen. 
-	 * @param grid 
-	 * 		  Grid Array  	
+	 * Recursive functions to generate grid placement of queen.
+	 * 
+	 * @param grid
+	 *            Grid Array
 	 * @param col
-	 * 		  Column for queens position	
+	 *            Column for queens position
 	 * @return
 	 */
 	boolean backTrackUtil(int grid[][], int col) {
@@ -43,7 +46,7 @@ public class NQueenSolutions {
 		 * all solutions
 		 */
 		if (col == gridSize) {
-			// clone the solution grid and add to list 
+			// clone the solution grid and add to list
 			int grid_clone[][] = new int[gridSize][gridSize];
 			for (int i = 0; i < grid.length; i++)
 				for (int j = 0; j < grid[i].length; j++)
@@ -84,8 +87,7 @@ public class NQueenSolutions {
 	}
 
 	/**
-	 * @return 
-	 * 		 List of Solutions grid with queen placed on the grid.
+	 * @return List of Solutions grid with queen placed on the grid.
 	 * @throws NoSolutionExist
 	 */
 	public List<int[][]> solve() throws NoSolutionExist {

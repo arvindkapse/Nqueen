@@ -1,8 +1,7 @@
 package com.compilerWorks.RuntimeExceptions;
 
 /**
- * @author arvind
- * Runtime Exception when No Solutions exits
+ * @author arvind Runtime Exception when No Solutions exits
  */
 public class NoSolutionExist extends RuntimeException {
 

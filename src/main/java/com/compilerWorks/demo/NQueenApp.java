@@ -25,7 +25,9 @@ public class NQueenApp {
 
 	/**
 	 * Entry for Nqueens problem with straight line Filter
-	 * @param args (n = grid size , q = minimum number of queens in straight line)
+	 * 
+	 * @param args
+	 *            (n = grid size , q = minimum number of queens in straight line)
 	 */
 	public static void main(String[] args) {
 
@@ -59,7 +61,7 @@ public class NQueenApp {
 
 			logger.info("User Input - Grid Size  " + grid);
 			logger.info("User Input - No of queens on straight line " + queens);
-			// slope  with other 2 for three queens to be on straight line
+			// slope with other 2 for three queens to be on straight line
 			queens = queens - 1;
 			NQueenSolutions nq = new NQueenSolutions(grid);
 			List<int[][]> lstAllsolutionsgrid = nq.solve();
@@ -85,7 +87,7 @@ public class NQueenApp {
 			} else {
 				logger.info("No grid solutions for given input data");
 			}
-		}catch(InvalidInputData id){
+		} catch (InvalidInputData id) {
 			logger.error("Invalid input grid size");
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -1,8 +1,9 @@
 package com.compilerWorks.Helpers;
 
 public class Helper {
-/**
+	/**
 	 * Function to validate if a Queen can be placed at (row,col) in a given grid.
+	 * 
 	 * @param grid
 	 * @param row
 	 * @param col
@@ -45,6 +46,7 @@ public class Helper {
 
 	/**
 	 * Print the grid out to system console
+	 * 
 	 * @param grid
 	 * @param gridCount
 	 * @param gridSize

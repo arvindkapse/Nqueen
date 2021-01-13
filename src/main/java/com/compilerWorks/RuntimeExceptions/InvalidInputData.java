@@ -1,9 +1,8 @@
 package com.compilerWorks.RuntimeExceptions;
 
-
 /**
  *
-	RunTime Exception for Invalid Input Data
+ * RunTime Exception for Invalid Input Data
  *
  */
 public class InvalidInputData extends RuntimeException {
