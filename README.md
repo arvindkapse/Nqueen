@@ -49,6 +49,7 @@ Additionally, please make sure that no three queens are in a straight line at AN
 * Eclipse
 * Java 1.8
 * Gradle 6.8
+* Git
 
 
 
@@ -59,13 +60,13 @@ To get a local copy up and to run follow these simple steps.
 
 ### Prerequisites
 
-  JDK 1.8 and above installed.
-  Gradle 6.8
+* JDK 1.8 and above installed.
+* Gradle 6.8
 
 
 ### Installation
 
-   Clone the repo
+   Clone the below repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
@@ -76,9 +77,9 @@ To get a local copy up and to run follow these simple steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-gradle clean build
-	gradle run --args="-n 5 -q 3"  <br> 
-	```sh
+* gradle clean build
+* gradle run --args="-n 5 -q 3"  <br> 
+	```
 		 -n,--grid <arg>         grid size
 		 -q,--noofqueens <arg>   No of queens in straight line
 	 ```	 
