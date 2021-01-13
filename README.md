@@ -1,19 +1,6 @@
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
   <h3 align="center">NQueen</h3>
 
@@ -68,7 +55,7 @@ Additionally, please make sure that no three queens are in a straight line at AN
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and to run follow these simple steps.
 
 ### Prerequisites
 
@@ -78,7 +65,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Clone the repo
+   Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
    ```
@@ -90,9 +77,11 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 gradle clean build
-	gradle run --args="-n 5 -q 3"  <br>
+	gradle run --args="-n 5 -q 3"  <br> 
+	```sh
 		 -n,--grid <arg>         grid size
 		 -q,--noofqueens <arg>   No of queens in straight line
+	 ```	 
 
 
 
