@@ -1,4 +1,4 @@
-package com.comilerWorks.Nqueen.filters;
+package com.compilerWorks.Nqueen.filters;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.complierWorks.RuntimeExceptions.InvalidInputData;
+import com.compilerWorks.RuntimeExceptions.InvalidInputData;
 
 public class StraightLineFilter {
 	private static final Logger logger = LoggerFactory.getLogger(StraightLineFilter.class);

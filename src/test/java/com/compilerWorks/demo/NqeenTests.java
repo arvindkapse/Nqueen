@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.comilerWorks.Nqueen.filters.StraightLineFilter;
-import com.complierWorks.RuntimeExceptions.InvalidInputData;
-import com.complierWorks.RuntimeExceptions.NoSolutionExist;
+import com.compilerWorks.Nqueen.filters.StraightLineFilter;
+import com.compilerWorks.RuntimeExceptions.InvalidInputData;
+import com.compilerWorks.RuntimeExceptions.NoSolutionExist;
 
 public class NqeenTests {
 

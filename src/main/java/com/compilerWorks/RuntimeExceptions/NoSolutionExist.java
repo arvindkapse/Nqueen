@@ -1,4 +1,4 @@
-package com.complierWorks.RuntimeExceptions;
+package com.compilerWorks.RuntimeExceptions;
 
 /**
  * @author arvind

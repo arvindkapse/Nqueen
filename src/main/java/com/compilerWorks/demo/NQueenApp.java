@@ -12,9 +12,9 @@ import org.apache.commons.cli.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.comilerWorks.Nqueen.filters.StraightLineFilter;
 import com.compilerWorks.Helpers.Helper;
-import com.complierWorks.RuntimeExceptions.InvalidInputData;
+import com.compilerWorks.Nqueen.filters.StraightLineFilter;
+import com.compilerWorks.RuntimeExceptions.InvalidInputData;
 
 /**
  * @author arvind

@@ -7,8 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.compilerWorks.Helpers.Helper;
-import com.complierWorks.RuntimeExceptions.InvalidInputData;
-import com.complierWorks.RuntimeExceptions.NoSolutionExist;
+import com.compilerWorks.RuntimeExceptions.InvalidInputData;
+import com.compilerWorks.RuntimeExceptions.NoSolutionExist;
 
 public class NQueenSolutions {
 	private static final Logger logger = LoggerFactory.getLogger(NQueenSolutions.class);
